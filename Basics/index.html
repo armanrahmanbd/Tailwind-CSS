@@ -2,9 +2,17 @@
 <html lang="en">
   <head>
     <title>Tailwind Setup with CDN</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body class="bg-black">
-    <h1 class="text-white text-4xl">Hello, Tailwind CSS</h1>
+  <body>
+    <h1 class="text-5xl">Hello, Tailwind CSS</h1>
+    <p class="text-lg text-gray-700">
+      This is a simple setup using Tailwind CSS via CDN.
+    </p>
+    <button
+      class="bg-blue-500 text-white m-2 p-2 rounded text-2xl hover:bg-blue-800 transition duration-300"
+    >
+      Click Me
+    </button>
   </body>
 </html>
